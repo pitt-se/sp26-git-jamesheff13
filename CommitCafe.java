@@ -1,11 +1,15 @@
 public class CommitCafe {
 
+
     private static String barista = "James"; // STUDENT_TODO_1A: Change name
     // STUDENT_TODO_1B: Add a nickname or title for the barista
+    private static String title = "[Lead Barista]"; // STUDENT_TODO_1B: Add a nickname or title for the barista
+
 
     private static int cups = 0;
 
     public static void brew(String drink) {
+
         // STUDENT_TODO_2A: Implement - add 1 to cups & print a message
         cups++;
         System.out.println("More cups!");
